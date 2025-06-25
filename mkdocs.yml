@@ -1,0 +1,86 @@
+nav:
+  - Home: index.md
+  - Features:
+    - CRM Software Overview: features/overview.md
+    - Tasks application features: features/tasks-app-features.md
+      # - TASK & MEMO:
+        # - Task features: features/task-features.md
+        # - Memo features: features/memo-features.md
+    - CRM application features: features/crm-app-features.md
+    - Analytics application features: features/analytics-app-features.md
+    - Massmail application features: features/massmail-app-features.md
+
+  - Documentation: documentation.md
+    # - Help pages:
+      #  - help/index.md
+      #  - TASKS:
+      #  - Tasks: help/tasks.md
+      #  - Task: help/task.md
+      #  - CRM:
+      #  - Cmpanies: help/companies.md
+        #  - Deals: help/deals.md
+        #  - Deal: help/deal.md
+  - Support: support.md
+
+site_name: Django-CRM
+site_url: https://DjangoCRM.github.io/
+site_description: >-
+  Analytical CRM with Tasks management, Email marketing and many more. 
+  Django CRM software app is built for individual use by businesses of any size or freelancers and is designed to provide easy customization and quick development.
+  Deploy on your server or cloud platform
+
+repo_url: https://github.com/DjangoCRM/django-crm
+repo_name: Django CRM GitHub
+site_author: Vadym Kharchenko
+copyright: Copyright &copy; 2024 - 2025 Vadym Kharchenko
+
+theme:
+  name: material
+  custom_dir: material/overrides
+  logo: assets/img/django-crm_logo.png
+  favicon: assets/img/favicon.ico
+  palette:
+    scheme: django-crm
+  language: en
+  features:
+    - navigation.instant
+    - navigation.indexes  # useful for providing overview pages
+    - navigation.tracking   # the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents.
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    # - navigation.path
+    - navigation.top
+    # footer settings
+    - navigation.footer
+
+extra_css:
+  # Color variables
+  # https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss
+  - assets/css/extra.css
+
+
+plugins:
+  # - optimize # automatically identifies and optimizes all media files
+  - glightbox
+  # - social
+  - i18n:   # plugin `mkdocs-static-i18n` 
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          link: /
+          build: true
+        - locale: es
+          name: Spanish
+          build: false
+          link: /es/
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

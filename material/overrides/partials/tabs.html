@@ -1,0 +1,40 @@
+{% import "partials/tabs-item.html" as item with context %}
+
+<!-- Navigation tabs -->
+<nav
+  class="md-tabs"
+  aria-label="{{ lang.t('tabs') }}"
+  data-md-component="tabs"
+>
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      {% for nav_item in nav %}
+        {{ item.render(nav_item) }}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+{% if page.url == "" %}
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="assets/img/illustration.png" alt="" width="1659" height="1200" draggable="false">
+      </div>
+      <div class="mdx-hero__content">
+        <img src="assets/img/django-crm_logo_300.svg" alt="Analytical crm report"  width="90px" style="float: right; margin-right: 25%;"/>
+        <br>
+        <h1>Django-CRM</h1>
+        <h2>Free and Open Source Customer Relationship Management software</h2>
+        <p>{{ config.site_description }}.</p>
+        <a href="{{ 'documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+          Get started
+        </a>
+        <a href="{{ 'features/overview/' | url }}" title="Django-CRM Overview" class="md-button">
+          Learn more
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
