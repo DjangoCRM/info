@@ -42,6 +42,8 @@ theme:
   palette:
     scheme: django-crm
   language: en
+  analytics:
+    gtag: G-NL555B7QKF
   features:
     - navigation.instant
     - navigation.indexes  # useful for providing overview pages
