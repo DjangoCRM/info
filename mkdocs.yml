@@ -42,8 +42,6 @@ theme:
   palette:
     scheme: django-crm
   language: en
-  analytics:
-    gtag: G-NL555B7QKF
   features:
     - navigation.instant
     - navigation.indexes  # useful for providing overview pages
@@ -86,3 +84,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  analytics:
+    provider: google
+    property: G-NL555B7QKF
