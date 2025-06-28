@@ -23,7 +23,7 @@ nav:
   - Support: support.md
 
 site_name: Django-CRM
-site_url: https://DjangoCRM.github.io/
+site_url: https://DjangoCRM.github.io/info/
 site_description: >-
   Analytical CRM with Tasks management, Email marketing and many more. 
   Django CRM software app is built for individual use by businesses of any size or freelancers and is designed to provide easy customization and quick development.
