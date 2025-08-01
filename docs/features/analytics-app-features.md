@@ -24,7 +24,7 @@ The Analytics application within Django CRM equips businesses with essential too
 
 The Django CRM project includes 8 key analytical reports, which are further enhanced by broader CRM analytics functionalities:
 
-![Analytics Application Software](../assets/img/screenshots/income_summary_screenshot.png){ align=left width="200" loading=lazy }
+![Analytics Application Software](../assets/img/screenshots/income_summary_screenshot.png){ align=left width="250" loading=lazy }
 
 * **Income Summary Report**
 
@@ -37,6 +37,8 @@ The Django CRM project includes 8 key analytical reports, which are further enha
 * **Sales Report**
 
     This is a summary of sold products and services. Allows you to get a report on the selected item for any period of time. Access detailed sales data to assess progress and find areas to boost profitability.
+
+![Screenshot of Sales Funnel Report](../assets/img/screenshots/sales_funnel_screenshot.png){ align=right width="300" loading=lazy }
 
 * **Sales Funnel Report**
 
