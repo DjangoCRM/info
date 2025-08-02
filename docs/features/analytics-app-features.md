@@ -38,8 +38,6 @@ The CRM project includes 8 key analytical reports, which are further enhanced by
 
     This is a summary of sold products and services. Allows you to get a report on the selected item for any period of time. Access detailed sales data to assess progress and find areas to boost profitability using CRM sales analytics.
 
-![Screenshot of Sales Funnel Report](../assets/img/screenshots/sales_funnel_screenshot.png){ align=right width="300" loading=lazy }
-
 * **Sales Funnel Report**
 
     This includes monitoring lead drop-out rates at different sales stages.
