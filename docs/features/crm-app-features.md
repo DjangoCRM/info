@@ -13,7 +13,7 @@ Data from the CRM app flows into the Analytics module for in-depth reporting on 
 
 <figure markdown="span">
   ![CRM Requests list screenshot](../assets/img/screenshots/request_list_screenshot.png){ loading=lazy width="680"}
-  <figcaption>Screenshot of the Requests page in CRM</figcaption>
+  <figcaption>Screenshot of the Requests page in CRM Software</figcaption>
 </figure>
 
 ---
@@ -115,4 +115,4 @@ Data from the CRM app flows into the Analytics module for in-depth reporting on 
 
 ---
 
-By consolidating inquiries, customer data, and deal pipelines in one application, the CRM app empowers teams to manage their sales lifecycle with greater visibility and control—backed by in-depth analytics and customizable workflows.
+By consolidating inquiries, customer data, and deal pipelines in one application, the CRM app software empowers teams to manage their sales lifecycle with greater visibility and control—backed by in-depth analytics and customizable workflows.

@@ -8,7 +8,7 @@ description: Elevate income with Mailing CRM that lets sales managers craft targ
 
 # Boost Sales Efficiency with Integrated Email Marketing: Send Personalized email Campaigns Directly from the CRM 
 
-The **Massmail application** is a built-in feature of Django CRM that enables your team to manage and send email campaigns. It’s designed for sales managers who need to communicate with leads, contacts, and companies efficiently—without leaving their workflow.
+The **Massmail application** is a built-in feature of the CRM that enables your team to manage and send email campaigns. It’s designed for sales managers who need to communicate with leads, contacts, and companies efficiently—without leaving their workflow.
 
 ## Built for CRM-Based Outreach
 
@@ -67,8 +67,8 @@ These tags—such as **{{ first_name }}**, **{{ last_name }}**, **{{ company }}*
 
 Every message also includes an unsubscribe link, helping you stay compliant with communication standards and giving recipients full control over their preferences.
 
-### Tracking Replies in the CRM
+### Tracking Replies in the CRM Software
 
-To reduce noise, Django CRM automatically imports only the emails linked to commercial Requests and Deals—these are organized using a ticketing system. If a recipient replies to a newsletter with a commercial inquiry, that message can be imported manually with one click, and the rest of the thread will be tracked automatically.
+To reduce noise, CRM software automatically imports only the emails linked to commercial Requests and Deals—these are organized using a ticketing system. If a recipient replies to a newsletter with a commercial inquiry, that message can be imported manually with one click, and the rest of the thread will be tracked automatically.
 
 The system also supports OAuth 2.0, so you can connect accounts that require two-step authentication.
