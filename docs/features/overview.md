@@ -25,7 +25,7 @@ The **Tasks** section is designed to support day-to-day planning and team coordi
 - **Managers** can also assign **individual or group tasks** and manage **projects** for their team.  
 Each task, memo, or project comes with built-in **chat**, **file attachments**, and **reminder features**, helping keep all communication and materials in one place.  
 Users stay informed with real-time **CRM notifications** and **email alerts**, ensuring nothing slips through the cracks.
-[Read more](tasks-app-features.md){ .md-button }
+[CRM and Task Management Software](tasks-app-features.md){ .md-button }
 { .card }
 
 </div>
@@ -39,10 +39,10 @@ The CRM section of Django CRM is designed to optimize sales workflows and centra
 Here's what you can expect:  
 - **Automatic lead capture**: Leads can be created automatically via web forms or semi-automatically by parsing incoming emails. Once qualified, they can be effortlessly converted into companies and linked contacts.  
 - **Email Integration**: Connect your Gmail or other email accounts to keep all communication in one place — the system automatically syncs correspondence related to commercial inquiries and sales opportunities.  
-- **Two departments**: — Local Sales and Global Sales — come pre-configured, giving your teams a clear structure.
+- **Two departments**: Local Sales and Global Sales — come pre-configured, giving your teams a clear structure.
 With Django CRM’s CRM section, your sales workflow becomes smarter, faster, and more connected.  
 Whether you're managing a few leads or coordinating global sales, this CRM section keeps your pipeline organized and communication consistent.  
-[Read more](crm-app-features.md){ .md-button }
+[Sales CRM Software](crm-app-features.md){ .md-button }
 { .card }
 
 <figure markdown="span">
@@ -66,7 +66,7 @@ The module includes **eight detailed reports**, such as:
 - Sales funnel visualization.  
 These reports can be filtered by **individual sales manager**, **department**, or **company-wide** scope, allowing for targeted analysis and strategic planning.  
 By offering structured, real-time insights, the Analytics section helps teams identify trends, assess performance, and adjust tactics effectively.  
-[Read more](analytics-app-features.md){ .md-button }
+[CRM Analytics Software](analytics-app-features.md){ .md-button }
 { .card }
 </div>
 
@@ -75,13 +75,13 @@ By offering structured, real-time insights, the Analytics section helps teams id
 ### Mass mail section
 
 <div class="grid" markdown>
-This section offers a flexible way to manage bulk email campaigns while keeping them personal and relevant.  
-Access to this feature is **role-based**, ensuring that only authorized team members can launch or manage email distributions. Users can **integrate their email accounts** (e.g., Gmail) and set up **multiple personalized signatures** for different use cases or team members. With built-in tools for **dynamic content generation**, each email can be **automatically customized** to match the recipient’s details. The platform also allows for **contact segmentation**, so you can target specific groups with tailored messages. During your campaign, you'll receive a **detailed report** that tracks the performance of each campaign, helping you measure engagement and improve your approach.  
-[Read more](#){ .md-button }
+This section offers a flexible way to manage bulk **email campaigns** while keeping them personal and relevant.  
+Access to this feature is role-based, ensuring that only authorized team members can launch or manage email distributions. Users can **integrate their email accounts** (e.g., Gmail) and set up **multiple personalized signatures** for different use cases or team members. With built-in tools for **dynamic content generation**, each email can be **automatically customized** to match the recipient’s details. The platform also allows for **contact segmentation**, so you can target specific groups with tailored messages. During your campaign, you'll receive a **detailed report** that tracks the performance of each campaign, helping you measure engagement and improve your approach.  
+[CRM and Email Marketing Software](massmail-app-features.md){ .md-button }
 { .card }
 
 <figure markdown="span">
-![CRM Application Software](../assets/img/screenshots/mass_mail_administration.png){ align=left width="600" loading=lazy }
+![CRM and Email Marketing Software](../assets/img/screenshots/mass_mail_administration.png){ align=left width="600" loading=lazy }
 </figure>
 </div>
 
