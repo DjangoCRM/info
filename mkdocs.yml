@@ -21,6 +21,7 @@ nav:
         #  - Deals: help/deals.md
         #  - Deal: help/deal.md
   - Support: support.md
+  - Download: download.md
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
@@ -50,7 +51,7 @@ theme:
     # - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    # - navigation.path
+    # - navigation.path # for insiders
     - navigation.top
     # footer settings
     - navigation.footer
