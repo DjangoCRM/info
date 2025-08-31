@@ -144,7 +144,7 @@ Over time, CRM systems inevitably **accumulate large volumes of data** across le
 ## CRM Application Software
 
 <div class="grid" markdown>
-![CRM Application Software](assets/img/screenshots/crm_deal_screenshot_500x500.webp){ align=left loading=lazy}
+![CRM Application Software](assets/img/screenshots/crm_deal_screenshot_500x500.webp){ loading=lazy }
 { .card }
 
 <br>The CRM is a free, open-source customer relationship management app built on the Django framework, designed to help businesses manage their sales pipeline and customer data more efficiently. This CRM software app centralizes key processes—such as: lead tracking, deal management, and internal communication—into a single, streamlined system.  
@@ -171,7 +171,7 @@ Advanced **customer segmentation** enables precise targeting based on user-defin
 { .card }
 
 <figure markdown="span">
-![CRM Application Software](assets/img/CRM and Email Marketing.png){ align=left width="600" loading=lazy style="clip-path: xywh(0 5px 100% 100% round 15% 0);"}
+![CRM Application Software](assets/img/screenshots/crm_email_screenshot.webp){ loading=lazy width="600" }
 </figure>
 </div>
 
