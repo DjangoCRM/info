@@ -17,8 +17,8 @@ description: Analytical CRM offers contact management, sales tracking, email mar
     - deploy and support of a production server
     - develop and extend functionality
 
-**The proprietary framework was not intentionally created**: everything is built using the popular Django framework.  
-CRM also takes full advantage of the Django Admin site, with documentation all contained on a single web page!  
+**The proprietary framework was not intentionally created**: everything is built using the popular [Python](https://www.python.org/){target="_blank"} programming language web framework - Django.  
+CRM also takes full advantage of the [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/){target="_blank"}, with documentation all contained on a single web page!  
 Client Relationship Management software is built for individual use by businesses of any size or freelancers and is designed to provide easy customization and quick development. Access to the company's business data remains solely under its control.  
 **This CRM is perfect for businesses that want full control over their CRM solution without vendor lock-in.**
 
@@ -38,110 +38,97 @@ Over time, CRM systems inevitably **accumulate large volumes of data** across le
 
 ---
 
-## Comprehensive features of CRM software
+## **Comprehensive features of CRM software**
 
 <div class="grid cards" markdown>
 
 - :material-contacts-outline: **[Contact Management]** – Store and manage customer information, interactions, and activities
 - :material-account-cash-outline: **[Sales Tracking]** – Track leads, opportunities, and deals to improve sales performance
-- :material-clipboard-check-multiple-outline: **[Task Organization]** – Create and assign tasks to team members for better collaboration and productivity
-- :material-finance: **[Analytics]** – Generate reports and analyze data to make informed business decisions
-- :material-email-fast-outline: **[Email Integration & Mailing]** – Send and receive emails directly from the CRM for seamless communication
+- :material-clipboard-check-multiple-outline: **[CRM Task Management]** – Create and assign tasks to team members for better collaboration and productivity
+- :material-finance: **[CRM Analytics Software]** – Generate reports and analyze data to make informed business decisions
+- :material-email-fast-outline: **[CRM Email Marketing]** – Send personalized email campaigns directly from the CRM
 - :material-translate: **[Project Localization]** – Customer service software is now **available in 20+ languages**
 
 </div>
 
   [Contact Management]: features/crm-app-features.md#company-contact-lead-management
   [Sales Tracking]: features/crm-app-features.md
-  [Task Organization]: features/tasks-app-features.md
-  [Analytics]: features/analytics-app-features.md
-  [Email Integration & Mailing]: features/massmail-app-features.md
+  [CRM Task Management]: features/tasks-app-features.md
+  [CRM Analytics Software]: features/analytics-app-features.md
+  [CRM Email Marketing]: features/massmail-app-features.md
   [Project Localization]: index.md
 
 ---
 
-## **Common Problems Faced by SaaS CRM Clients**
+<div class="grid" markdown>
+!!! note "**Common Problems Faced by SaaS CRM Clients**"
 
-### 1. High Subscription Costs with Low Feature Utilization
+    ??? info "1. High Subscription Costs with Low Feature Utilization"
 
-* Companies pay large annual fees for SaaS CRM licenses.
-* Typically, only 20-30% of the features are actually used.
-* Useful features are often locked behind expensive “premium” tiers.
+          * Companies pay large annual fees for SaaS CRM licenses.
+          * Typically, only 20-30% of the features are actually used.
+          * Useful features are often locked behind expensive “premium” tiers.
+    
+    ??? info "2. Rigid workflows that don't match business needs"
+    
+          * SaaS platforms force businesses to adapt their workflows to fit predefined CRM structures.
+          * Customizing business logic (e.g., lead scoring algorithms) requires expensive plugins, consultants, or workarounds.
+          * Built-in tools are generic and often fail to handle industry-specific needs.
+    
+    ??? info "3. Customizations break during platform updates and Vendor Lock-in"
+    
+          * Custom features or integrations often break with each platform update.
+          * Migration to another platform is made intentionally difficult and costly.
+          * Companies become trapped into paying increasing subscription fees due to the complexity of switching.
+    
+    ??? info "4. Hidden Costs: Integration, Consulting, and Manual Work"
+    
+          * Integrating third-party tools or internal systems comes with high consulting costs.
+          * Teams waste time on manual processes (data exports, custom reports) because automation is limited or broken.
+          * Productivity losses are not accounted for in ROI calculations but have a real business impact.
+    
+    ??? info "5. Slow Response to Unique Requirements"
+    
+          * Feature requests or necessary changes depend on vendor development timelines.
+          * Critical business requirements are often low priority for large CRM vendors.
+          * Businesses are left waiting or forced into costly custom development on top of already expensive platforms.
 
-### 2. Lack of Flexibility for Custom Business Processes
+!!! question "**How Django CRM Solves These Problems**"
 
-* SaaS platforms force businesses to adapt their workflows to fit predefined CRM structures.
-* Customizing business logic (e.g., lead scoring algorithms) requires expensive plugins, consultants, or workarounds.
-* Built-in tools are generic and often fail to handle industry-specific needs.
+    ??? success "1. Free, open-source software with no per-user costs"
 
-### 3. Fragile Customizations and Vendor Lock-in
+          * Django CRM is **free, open-source software**—no license fees, no per-user costs.
+          * You fully own the codebase and data, with no vendor lock-in.
+          * Initial development costs can be recovered over time through lower operating expenses.
 
-* Custom features or integrations often break with each platform update.
-* Migration to another platform is made intentionally difficult and costly.
-* Companies become trapped into paying increasing subscription fees due to the complexity of switching.
+    ??? success "2. Fully customizable data models and logic"
 
-### 4. Hidden Costs: Integration, Consulting, and Manual Work
+          * Django CRM allows you to **modify the CRM’s logic and data models directly**.
+          * You can implement custom lead scoring, unique sales processes, or niche workflows tailored to your industry.
+          * No need to patch together external tools or bend your process to fit generic CRM templates.
 
-* Integrating third-party tools or internal systems comes with high consulting costs.
-* Teams waste time on manual processes (data exports, custom reports) because automation is limited or broken.
-* Productivity losses are not accounted for in ROI calculations but have a real business impact.
+    ??? success "3. Stable Customizations that You Control in your own CRM"
 
-### 5. Slow Response to Unique Requirements
+          * You decide when and how to update your CRM.
+          * Custom features are part of your codebase—not fragile external plugins that break during vendor updates.
+          * Migration is always possible since the entire application is under your control.
 
-* Feature requests or necessary changes depend on vendor development timelines.
-* Critical business requirements are often low priority for large CRM vendors.
-* Businesses are left waiting or forced into costly custom development on top of already expensive platforms.
+    ??? success "4. Efficient Integrations via Django/Python Ecosystem"
 
----
+          * Django’s modular architecture makes API integrations and automation straightforward.
+          * You avoid proprietary “integration marketplaces” with hidden fees.
+          * Internal systems, custom dashboards, and automation scripts can all run seamlessly within the same tech stack.
 
-## **How Django CRM Solves These Problems**
+    ??? success "5. Agile Response to Business Needs"
 
-### 1. Cost Control and Code Ownership
-
-* Django CRM is **free, open-source software**—no license fees, no per-user costs.
-* You fully own the codebase and data, with no vendor lock-in.
-* Initial development costs can be recovered over time through lower operating expenses.
-
-### 2. Custom Business Logic Built into the Core
-
-* Django CRM allows you to **modify the CRM’s logic and data models directly**.
-* You can implement custom lead scoring, unique sales processes, or niche workflows tailored to your industry.
-* No need to patch together external tools or bend your process to fit generic CRM templates.
-
-### 3. Stable Customizations that You Control
-
-* You decide when and how to update your CRM.
-* Custom features are part of your codebase—not fragile external plugins that break during vendor updates.
-* Migration is always possible since the entire application is under your control.
-
-### 4. Efficient Integrations via Django/Python Ecosystem
-
-* Django’s modular architecture makes API integrations and automation straightforward.
-* You avoid proprietary “integration marketplaces” with hidden fees.
-* Internal systems, custom dashboards, and automation scripts can all run seamlessly within the same tech stack.
-
-### 5. Agile Response to Business Needs
-
-* Development cycles are determined by your team, not a vendor’s roadmap.
-* New features can be added incrementally, exactly when they are needed.
-* Django CRM is built to be **extended**, making it ideal for evolving business requirements.
-
----
-
-## **Summary**
-
-| Problem with SaaS CRM Platforms                 | Solution with Django CRM                              |
-|-------------------------------------------------|-------------------------------------------------------|
-| High subscription fees with low usage           | Free, open-source software with no per-user costs     |
-| Rigid workflows that don’t match business needs | Fully customizable data models and logic              |
-| Customizations break during platform updates    | Custom features built natively into your own CRM      |
-| Vendor lock-in and costly migrations            | Full ownership of code and data, easy to move         |
-| Expensive and limited integrations              | Flexible, developer-friendly integration capabilities |
-| Slow feature rollout from vendors               | Agile development at your own pace                    |
+          * Development cycles are determined by your team, not a vendor’s roadmap.
+          * New features can be added incrementally, exactly when they are needed.
+          * Django CRM is built to be **extended**, making it ideal for evolving business requirements.
+</div>
 
 ---
 
-## CRM Application Software
+## **CRM Application Software**
 
 <div class="grid" markdown>
 ![CRM Application Software](assets/img/screenshots/crm_deal_screenshot_500x500.webp){ loading=lazy }
@@ -155,7 +142,7 @@ With features like **role-based access** control, advanced search filters, integ
 
 ---
 
-## Easy project customization and development
+## **Easy project customization and development**
 
 The CRM is built with flexibility in mind, making it easy to customize and extend for any business need. Whether you're adding new features, integrating third-party services, or modifying existing workflows, the codebase is easy to understand and extend.  
 As a Python CRM, it leverages Django’s powerful framework to ensure rapid development and straightforward integration with third-party tools. With reusable components and clear documentation, adapting the CRM to your unique business logic takes minimal effort.  
@@ -163,7 +150,7 @@ Developers can add new features, adjust workflows, or connect external APIs with
 
 ---
 
-## CRM and Email Marketing
+## **CRM and Email Marketing**
 
 <div class="grid" markdown>
 <br>The CRM combines powerful customer management tools with **built-in email marketing capabilities**, making it a complete [**mailing CRM**](features/massmail-app-features.md) solution. Users can run personalized email campaigns, manage subscriber lists, and track engagement—all from within the CRM interface. Emails are linked directly to companies, contact persons, and lead, ensuring a unified communication history. Bulk mailing features allow **targeted newsletters** without relying on external tools.  

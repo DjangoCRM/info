@@ -2,13 +2,13 @@ nav:
   - Home: index.md
   - Features:
     - CRM Software Overview: features/overview.md
-    - Tasks application features: features/tasks-app-features.md
+    - CRM Task management: features/tasks-app-features.md
       # - TASK & MEMO:
         # - Task features: features/task-features.md
         # - Memo features: features/memo-features.md
     - CRM application features: features/crm-app-features.md
-    - Analytics application features: features/analytics-app-features.md
-    - Massmail application features: features/massmail-app-features.md
+    - CRM analytics software: features/analytics-app-features.md
+    - CRM email marketing: features/massmail-app-features.md
 
   - Documentation: documentation.md
     # - Help pages:
@@ -79,9 +79,11 @@ plugins:
           build: false
           link: /es/
 
-markdown_extensions: 
+markdown_extensions:
+  - admonition
   - attr_list
   - md_in_html
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
