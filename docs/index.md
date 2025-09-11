@@ -134,9 +134,21 @@ Over time, CRM systems inevitably **accumulate large volumes of data** across le
 ![CRM Application Software](assets/img/screenshots/crm_deal_screenshot_500x500.webp){ loading=lazy }
 { .card }
 
-<br>The CRM is a free, open-source customer relationship management app built on the Django framework, designed to help businesses manage their sales pipeline and customer data more efficiently. This CRM software app centralizes key processes—such as: lead tracking, deal management, and internal communication—into a single, streamlined system.  
-With features like **role-based access** control, advanced search filters, integrated email and **VoIP communication**, and automatic request handling, it supports teams in working collaboratively and staying organized. The CRM application also enables users to track payments, manage tasks, and gain insights through built-in analytics and sales funnel reports.  
-**Custom roles** and permissions make it adaptable to any organizational structure, ensuring each user has the right level of access. Whether you're handling commercial requests, managing contacts, or analyzing sales performance, CRM helps **automate** and simplify your **workflow**. As a flexible and fully documented solution, it’s ideal for companies looking to deploy a scalable and customizable CRM software app without vendor lock-in.
+<br>The CRM is a free, open-source customer relationship management app built on the Django framework,
+designed to help businesses manage their sales pipeline and customer data more efficiently.
+This CRM software app centralizes key processes—such as: lead tracking, deal management,
+and internal communication—into a single, streamlined system.  
+With features like **role-based access** control, advanced search filters,
+integrated email and **VoIP communication**, and automatic request handling,
+it supports teams in working collaboratively and staying organized.
+The CRM application also enables users to track payments, manage tasks,
+and gain insights through built-in analytics and sales funnel reports.  
+**Custom roles** and permissions make it adaptable to any organizational structure,
+ensuring each user has the right level of access. Whether you're handling commercial requests,
+managing contacts, or analyzing sales performance, CRM helps **automate** and simplify your **workflow**.
+As a flexible and fully documented solution, it’s ideal for companies looking to deploy a scalable
+and customizable CRM software app without vendor lock-in.  
+[Sales CRM Software](features/crm-app-features.md){ .md-button }
 { .card }
 </div>
 
@@ -153,8 +165,15 @@ Developers can add new features, adjust workflows, or connect external APIs with
 ## **CRM and Email Marketing**
 
 <div class="grid" markdown>
-<br>The CRM combines powerful customer management tools with **built-in email marketing capabilities**, making it a complete [**mailing CRM**](features/massmail-app-features.md) solution. Users can run personalized email campaigns, manage subscriber lists, and track engagement—all from within the CRM interface. Emails are linked directly to companies, contact persons, and lead, ensuring a unified communication history. Bulk mailing features allow **targeted newsletters** without relying on external tools.  
-Advanced **customer segmentation** enables precise targeting based on user-defined filters. With automatic email synchronization and ticket-based tracking, you can maintain consistent customer communication at scale. As a **CRM with email** functionality, CRM simplifies outreach while keeping your team aligned on every touchpoint.
+<br>The CRM combines powerful customer management tools with **built-in email marketing capabilities**,
+making it a complete [**mailing CRM**](features/massmail-app-features.md) solution.
+Users can run personalized email campaigns, manage subscriber lists, and track engagement—all from within the CRM interface.
+Emails are linked directly to companies, contact persons, and lead, ensuring a unified communication history.
+Bulk mailing features allow **targeted newsletters** without relying on external tools.  
+Advanced **customer segmentation** enables precise targeting based on user-defined filters.
+With automatic email synchronization and ticket-based tracking, you can maintain consistent customer communication at scale.
+As a **CRM with email** functionality, CRM simplifies outreach while keeping your team aligned on every touchpoint.  
+[CRM and Email Marketing](features/massmail-app-features.md){ .md-button }
 { .card }
 
 <figure markdown="span">
