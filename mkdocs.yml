@@ -11,17 +11,19 @@ nav:
     - CRM email marketing: features/massmail-app-features.md
 
   - Documentation: documentation.md
-    # - Help pages:
-      #  - help/index.md
-      #  - TASKS:
-      #  - Tasks: help/tasks.md
-      #  - Task: help/task.md
-      #  - CRM:
-      #  - Cmpanies: help/companies.md
-        #  - Deals: help/deals.md
-        #  - Deal: help/deal.md
-  - Support: support.md
   - Download: download.md
+  - Support: support.md
+  - Help:
+    - help/index.md
+    # - CRM home: help/crm-home.md
+    #  - help/index.md
+    #  - TASKS:
+    #  - Tasks: help/tasks.md
+    #  - Task: help/task.md
+    #  - CRM:
+    #  - Cmpanies: help/companies.md
+      #  - Deals: help/deals.md
+      #  - Deal: help/deal.md
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
@@ -87,7 +89,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra:
   analytics:
     provider: google
