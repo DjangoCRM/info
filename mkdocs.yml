@@ -2,19 +2,20 @@ nav:
   - Home: index.md
   - Features:
     - CRM Software Overview: features/overview.md
-    - CRM Task management: features/tasks-app-features.md
-      # - TASK & MEMO:
-        # - Task features: features/task-features.md
-        # - Memo features: features/memo-features.md
+    - CRM and Task management: features/tasks-app-features.md
     - CRM application features: features/crm-app-features.md
     - CRM analytics software: features/analytics-app-features.md
     - CRM email marketing: features/massmail-app-features.md
-
   - Documentation: documentation.md
   - Download: download.md
   - Support: support.md
   - Help:
     - help/index.md
+    - Tasks Module:
+      - Tasks:
+        - Task management: help/task-management.md
+    #  - Memos:
+    #    - Memo management: help/memo-management.md
     # - CRM home: help/crm-home.md
     #  - help/index.md
     #  - TASKS:
@@ -51,8 +52,8 @@ theme:
     - navigation.tracking   # the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents.
     - navigation.tabs
     # - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
+    # - navigation.sections
+    # - navigation.expand
     # - navigation.path # for insiders
     - navigation.top
     # footer settings
