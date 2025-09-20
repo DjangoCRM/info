@@ -20,7 +20,7 @@ There you will find:
 
 * Instructions for logging in and accessing the CRM from any device.
 * Explanations of roles and permissions.
-* Step-by-step guides for each CRM module ([Tasks](../features/tasks-app-features), [Mailing](../features/massmail-app-features), [Analytics](../features/analytics-app-features), etc.).
+* Step-by-step guides for each CRM module ([Tasks](features/tasks-app-features.md), [Mailing](features/massmail-app-features.md), [Analytics](features/analytics-app-features.md), etc.).
 * Tips on switching interface language and themes.
 
 The Help Center is designed for everyday use by managers, sales staff, and other CRM users,
