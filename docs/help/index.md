@@ -8,9 +8,9 @@ description: Find step-by-step instructions for using Django CRM. Learn how to l
 Welcome to the Django CRM Help Center! Here, you'll find comprehensive guides and resources to assist you in navigating and utilizing
 the various features of our CRM application software. Whether you're a new user looking to get started or
 an experienced user seeking advanced tips, our help pages are designed to provide you with the information you need.
-Explore topics such as [task management](../features/tasks-app-features), [sales tracking](../features/crm-app-features), [email marketing](../features/massmail-app-features), and more.
+Explore topics such as [task management](../features/tasks-app-features.md), [sales tracking](../features/crm-app-features.md), [email marketing](../features/massmail-app-features.md), and more.
 Each section is filled with step-by-step instructions, FAQs, and best practices to help you make the most out of Django CRM.
-If you have any questions or need further assistance, don't hesitate to reach out to our [support](../support) team.  
+If you have any questions or need further assistance, don't hesitate to reach out to our [support](../support.md) team.  
 We're here to help you succeed!
 
 ## **Structure of the CRM web interface**
@@ -25,7 +25,7 @@ available features, and step-by-step instructions *(content is being supplemente
 
     ??? info "Tasks"
     
-          * Tasks
+          * [Tasks](task-management.md)
           * Memos
     
     ??? info "CRM"
@@ -66,7 +66,7 @@ available features, and step-by-step instructions *(content is being supplemente
           * Memos
           * Projects
           * Tags
-          * Tasks
+          * [Tasks](task-management.md)
 
     ??? success "CRM"
 
