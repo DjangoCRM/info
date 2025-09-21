@@ -30,7 +30,7 @@ site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
 site_description: >-
   Analytical CRM with Tasks management, Email marketing and many more. 
-  Django CRM software app is built for individual use by businesses of any size or freelancers and is designed to provide easy customization and quick development.
+  CRM and task management software is built for individual use by businesses of any size, but is especially useful for small businesses. It is designed to provide easy customization and quick development.
   Deploy on your server or cloud platform
 
 repo_url: https://github.com/DjangoCRM/django-crm
