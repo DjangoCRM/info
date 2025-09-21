@@ -4,8 +4,8 @@ hide:
   - toc
 title: Free & Open-Source CRM App Software
 description: Analytical CRM offers contact management, sales tracking, email marketing, and more. Customize your workflow and keep your data secure – no vendor lock-in!
-
 ---
+
 ## **What Makes Django CRM Different?**
 
 **Django-CRM** is a customer relationship management CRM solution designed with **two primary goals**:
@@ -17,10 +17,12 @@ description: Analytical CRM offers contact management, sales tracking, email mar
     - deploy and support of a production server
     - develop and extend functionality
 
-**The proprietary framework was not intentionally created**: everything is built using the popular [Python](https://www.python.org/){target="_blank"} programming language web framework - Django.  
-CRM also takes full advantage of the [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/){target="_blank"}, with documentation all contained on a single web page!  
-Client Relationship Management software is built for individual use by businesses of any size or freelancers and is designed to provide easy customization and quick development. Access to the company's business data remains solely under its control.  
+Access to the company's business data remains solely under its control.  
 **This CRM is perfect for businesses that want full control over their CRM solution without vendor lock-in.**
+
+Django CRM is built entirely on the widely used [Django Admin](https://docs.djangoproject.com/en/dev/ref/contrib/admin/){target="_blank"} framework. This means most
+[Python](https://www.python.org/){target="_blank"}/Django developers and integrators can easily understand, customize, and extend the system — reducing
+implementation time and long-term maintenance expenses compared to similar products.
 
 ---
 
@@ -135,7 +137,7 @@ Over time, CRM systems inevitably **accumulate large volumes of data** across le
 { .card }
 
 <br>The CRM is a free, open-source customer relationship management app built on the Django framework,
-designed to help businesses manage their sales pipeline and customer data more efficiently.
+designed to help small businesses manage their sales pipeline and customer data more efficiently.
 This CRM software app centralizes key processes—such as: lead tracking, deal management,
 and internal communication—into a single, streamlined system.  
 With features like **role-based access** control, advanced search filters,
