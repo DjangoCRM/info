@@ -27,7 +27,7 @@ This allows users to quickly scan, easily compare, and effectively sort or filte
 
 ## **Key Features of the CRM Task manager**
 
-The Task manager provides an intuitive interface for creating, organizing, and tracking **tasks**, **projects** and **memos** (office memos).  
+The [Task manager](../help/task-management.md) provides an intuitive interface for creating, organizing, and tracking **tasks**, **projects** and **memos** (office memos).  
 It is designed to enhance collaborative efforts, keeping teams on track and ensuring that tasks are completed in a timely manner.  
 Here's what sets it apart:
 
@@ -106,7 +106,7 @@ Django CRM’s Memo feature empowers businesses with effective communication and
 
 ---
 
-## **Use Cases for the CRM Task management**
+## **Use Cases for the Task management CRM**
 
 The versatility of the Tasks App makes it an ideal solution for multiple scenarios, including:
 
