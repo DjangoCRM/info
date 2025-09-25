@@ -16,7 +16,8 @@ Read more about the key features of [task management software](../features/tasks
 
 ## **Creating task**
 
-To create a task, click the "**ADD TASK +**" button in the upper right corner.
+To create a task, click the "**ADD TASK +**" button in the upper right corner.  
+After filling out the form and saving the task, you will be able to create subtasks in it.
 
 ### Who Can Create Task
 
