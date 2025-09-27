@@ -13,18 +13,11 @@ nav:
     - help/index.md
     - Tasks Module:
       - Tasks:
-        - Task management: help/task-management.md
+        - Task manager: help/task-management.md
+        - Creating and assigning tasks: help/creating-assigning-tasks.md
     #  - Memos:
     #    - Memo management: help/memo-management.md
-    # - CRM home: help/crm-home.md
-    #  - help/index.md
-    #  - TASKS:
-    #  - Tasks: help/tasks.md
-    #  - Task: help/task.md
-    #  - CRM:
-    #  - Cmpanies: help/companies.md
-      #  - Deals: help/deals.md
-      #  - Deal: help/deal.md
+
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
