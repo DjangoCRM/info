@@ -15,6 +15,7 @@ nav:
       - Tasks:
         - Task manager: help/task-management.md
         - Creating and assigning tasks: help/creating-assigning-tasks.md
+        - Editing and updating tasks: help/editing-updating-tasks.md
     #  - Memos:
     #    - Memo management: help/memo-management.md
 
@@ -40,7 +41,8 @@ theme:
     scheme: django-crm
   language: en
   features:
-    - navigation.instant
+    # - navigation.instant # mkdocs_static_i18n: mkdocs-material language switcher contextual link
+    #           is not compatible with theme.features = navigation.instant
     - navigation.indexes  # useful for providing overview pages
     - navigation.tracking   # the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents.
     - navigation.tabs
