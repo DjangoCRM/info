@@ -23,9 +23,6 @@
 background-color: var(--md-accent-fg-color);
 }
 
-
 .mdx-hero__image {
   order: 1;
-  transform: translateX(8rem);
-  width: 28rem;
 }
