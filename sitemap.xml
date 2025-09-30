@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://DjangoCRM.github.io/info/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/documentation/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/documentation/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/download/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/download/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/support/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/support/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/features/analytics-app-features/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/features/analytics-app-features/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/features/crm-app-features/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/features/crm-app-features/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/features/massmail-app-features/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/features/massmail-app-features/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/features/overview/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/features/overview/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/features/tasks-app-features/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/features/tasks-app-features/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/help/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/help/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/help/creating-assigning-tasks/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/help/creating-assigning-tasks/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/help/editing-updating-tasks/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/help/editing-updating-tasks/"/>
+    </url>
+    <url>
+        <loc>https://DjangoCRM.github.io/info/help/task-management/</loc>
+        <lastmod>2025-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://DjangoCRM.github.io/info/help/task-management/"/>
+    </url>
+</urlset>
