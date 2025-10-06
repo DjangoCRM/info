@@ -16,9 +16,9 @@ nav:
         - Task manager: help/task-management.md
         - Creating and assigning tasks: help/creating-assigning-tasks.md
         - Editing and updating tasks: help/editing-updating-tasks.md
+        - Deleting tasks: help/deleting-tasks.md
     #  - Memos:
     #    - Memo management: help/memo-management.md
-
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
@@ -26,6 +26,8 @@ site_description: >-
   Analytical CRM with Tasks management, Email marketing and many more. 
   CRM and task management software is built for individual use by businesses of any size, but is especially useful for small businesses. It is designed to provide easy customization and quick development.
   Deploy on your server or cloud platform
+
+# dev_addr: '127.0.0.1:8000'  # Allows a custom default to be set in format IP:PORT
 
 repo_url: https://github.com/DjangoCRM/django-crm
 repo_name: Django CRM GitHub
@@ -46,9 +48,9 @@ theme:
     - navigation.indexes  # useful for providing overview pages
     - navigation.tracking   # the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents.
     - navigation.tabs
+    - navigation.expand
     # - navigation.tabs.sticky
     # - navigation.sections
-    # - navigation.expand
     # - navigation.path # for insiders
     - navigation.top
     # footer settings
