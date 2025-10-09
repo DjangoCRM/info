@@ -27,7 +27,7 @@ This allows users to quickly scan, easily compare, and effectively sort or filte
 
 ## **Key Features of the CRM Task manager**
 
-The [Task manager](../help/task-management.md) provides an intuitive interface for creating, organizing, and tracking **tasks**, **projects** and **memos** (office memos).  
+The [Task manager](../help/task-management.md) provides an intuitive interface for creating, organizing, and tracking **tasks**, **projects** and **CRM notes** (office memos).  
 It is designed to enhance collaborative efforts, keeping teams on track and ensuring that tasks are completed in a timely manner.  
 Here's what sets it apart:
 
@@ -54,19 +54,19 @@ Here's what sets it apart:
 
 ---
 
-## **Enhance Your Workflow with Django CRM Memos**
+## **Enhance Your Workflow with Memos - CRM notes**
 
-A **Memo** in CRM is not just a note that users write to themselves, it is also an office memo and a service note.
+A **Memo** is not just a CRM note that users write to themselves, it is also an office memo and a service note.
 The Memo feature in CRM is designed to simplify communication and task delegation between various organizational units like marketing, customer service, and operations. Memo are versatile tool for documenting and sharing information, making decisions, or assigning responsibilities. Whether you're sending important updates to management or team members, memos ensure all communications are managed effectively - create and share **office memos** for critical information or instructions.  
 Convert memos into actionable tasks or projects, providing an easy way to track actionable items from organizational communications.
 
 <figure markdown="span">
-  ![CRM Memo list screenshot](../assets/img/screenshots/memo_list_screenshot.png){ loading=lazy width="680"}
+  ![CRM Note list screenshot](../assets/img/screenshots/memo_list_screenshot.png){ loading=lazy width="680"}
   <figcaption>Screenshot of the Memos page in CRM</figcaption>
 </figure>
 
-Monitor the progress of tasks associated with memos directly from the memo list, keeping teams focused and informed.
-Memos can be created for yourself, department leads, or managers directly from the **Tasks** section or even linked to deals, maintaining a clear connection between goals and outcomes.  
+Monitor the progress of tasks associated with notes directly from the memo list, keeping teams focused and informed.
+CRM note can be created for yourself, department leads, or managers directly from the **Tasks** section or even linked to deals, maintaining a clear connection between goals and outcomes.  
 Memos support attached files, reminders, and embedded chat discussions for real-time collaboration among participants.  
 Once reviewed, memos can be transformed into actionable tasks or projects. These actions are tracked within the CRM and linked to the original memo for easy reference.
 Django CRM’s Memo feature empowers businesses with effective communication and decision-making tools, ensuring teams can act on valuable information effortlessly.
