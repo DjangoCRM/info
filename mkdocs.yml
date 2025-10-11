@@ -17,6 +17,9 @@ nav:
         - Creating and assigning tasks: help/creating-assigning-tasks.md
         - Editing and updating tasks: help/editing-updating-tasks.md
         - Deleting tasks: help/deleting-tasks.md
+      - Memos:
+        - Working with CRM notes: help/notes-crm.md
+        - Memo creation: help/creating-crm-note.md
     #  - Memos:
     #    - Memo management: help/memo-management.md
 
