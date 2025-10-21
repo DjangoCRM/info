@@ -6,6 +6,7 @@ nav:
     - CRM application features: features/crm-app-features.md
     - CRM analytics software: features/analytics-app-features.md
     - CRM email marketing: features/massmail-app-features.md
+    - CRM and Project management: features/crm-and-project-management.md
   - Documentation: documentation.md
   - Download: download.md
   - Support: support.md
@@ -20,8 +21,8 @@ nav:
       - Memos:
         - Working with CRM notes: help/notes-crm.md
         - Memo creation: help/creating-crm-note.md
-    #  - Memos:
-    #    - Memo management: help/memo-management.md
+      - Projects:
+        - Project management: help/project-management.md
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/

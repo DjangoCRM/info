@@ -27,6 +27,7 @@ available features, and step-by-step instructions *(content is being supplemente
     
           * [Tasks](task-management.md)
           * [Memos](notes-crm.md)
+          * [Projects](project-management.md)
     
     ??? info "CRM"
     
@@ -64,7 +65,7 @@ available features, and step-by-step instructions *(content is being supplemente
     ??? success "Tasks"
 
           * [Memos](notes-crm.md)
-          * Projects
+          * [Projects](project-management.md)
           * Tags
           * [Tasks](task-management.md)
 
