@@ -21,6 +21,7 @@ nav:
       - Memos:
         - Working with CRM notes: help/notes-crm.md
         - Memo creation: help/creating-crm-note.md
+        - Editing and updating memos:  help/editing-updating-crm-note.md
       - Projects:
         - Project management: help/project-management.md
 

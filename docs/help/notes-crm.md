@@ -15,11 +15,11 @@ This feature helps teams maintain a structured record of communications, decisio
 
 ---
 
-## **User Roles in Memos**
+## **User Roles in CRM Memos**
 
 Each memo has several user roles that define how participants interact with it:
 
-- **Owners** – users who create memos.
+- **Owners** – users who create CRM memos.
 - **Recipients** – those for whom the memos are intended.
 - **Subscribers** – users who should be notified about the memo and, if applicable, about tasks created as a result of reviewing it.
 
@@ -33,7 +33,7 @@ The following stages are available for informing participants:
 - **Postponed** – review is delayed.
 - **Considered** – memo has been reviewed.
 
-The stage of a memo is updated by its recipient.
+The stage of a CRM memo is updated by its recipient.
 After the stage **“considered”** is set, the owner can no longer edit it or change
 attached files.
 
@@ -92,7 +92,7 @@ Each user sees only those memos where they are listed in any role (owner, recipi
 For more details on how to create or manage memos, see related help topics:
 
 - [Creating a Memo in Django CRM](creating-crm-note.md)
-- Editing and Reviewing Memos
+- [Editing and Reviewing Memos](editing-updating-crm-note.md)
 - [CRM notes and Tasks](../features/tasks-app-features.md)
 
 ---
