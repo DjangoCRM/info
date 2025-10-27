@@ -77,7 +77,7 @@ They will also receive automatic notifications about its creation.
 
 - [Memo list page](notes-crm.md) – view, search, and manage your memos.
 - [Memo editing page](editing-updating-crm-note.md) – update an existing memo before it’s reviewed.
-- Memo deletion page – confirm and delete a memo if necessary.
+- [Memo deletion page](deleting-crm-note.md) – confirm and delete a memo if necessary.
 
 ---
 
