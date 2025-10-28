@@ -25,6 +25,7 @@ nav:
         - Deleting memos: help/deleting-crm-note.md
       - Projects:
         - Project management: help/project-management.md
+        - Creating and assigning projects: help/creating-assigning-projects.md
 
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
@@ -67,7 +68,6 @@ extra_css:
   # https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss
   - assets/css/extra.css
 
-
 plugins:
   # - optimize # automatically identifies and optimizes all media files
   - glightbox
@@ -96,6 +96,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
 extra:
   analytics:
     provider: google
