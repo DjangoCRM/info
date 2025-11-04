@@ -31,8 +31,8 @@ available features, and step-by-step instructions *(content is being supplemente
     
     ??? info "CRM"
     
-          * Requests
-          * Deals
+          * [Requests](commercial-requests-management.md)
+          * [Deals](deals-management.md)
           * Leads
           * Companies
           * Emails in CRM
@@ -75,12 +75,12 @@ available features, and step-by-step instructions *(content is being supplemente
           * Companies
           * Contact persons
           * Currencies
-          * Deals
+          * [Deals](deals-management.md)
           * Emails in CRM
           * Leads
           * Payments
           * Products
-          * Requests
+          * [Requests](commercial-requests-management.md)
           * Shipments
           * Tags
 

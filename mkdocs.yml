@@ -1,32 +1,3 @@
-nav:
-  - Home: index.md
-  - Features:
-    - CRM Software Overview: features/overview.md
-    - CRM and Task management: features/tasks-app-features.md
-    - CRM application features: features/crm-app-features.md
-    - CRM analytics software: features/analytics-app-features.md
-    - CRM email marketing: features/massmail-app-features.md
-    - CRM and Project management: features/crm-and-project-management.md
-  - Documentation: documentation.md
-  - Download: download.md
-  - Support: support.md
-  - Help:
-    - help/index.md
-    - Tasks Module:
-      - Tasks:
-        - Task manager: help/task-management.md
-        - Creating and assigning tasks: help/creating-assigning-tasks.md
-        - Editing and updating tasks: help/editing-updating-tasks.md
-        - Deleting tasks: help/deleting-tasks.md
-      - Memos:
-        - Working with CRM notes: help/notes-crm.md
-        - Memo creation: help/creating-crm-note.md
-        - Editing and updating memos:  help/editing-updating-crm-note.md
-        - Deleting memos: help/deleting-crm-note.md
-      - Projects:
-        - Project management: help/project-management.md
-        - Creating and assigning projects: help/creating-assigning-projects.md
-
 site_name: Django-CRM
 site_url: https://DjangoCRM.github.io/info/
 site_description: >-
@@ -96,6 +67,38 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
+nav:
+  - Home: index.md
+  - Features:
+    - CRM Software Overview: features/overview.md
+    - CRM and Task management: features/tasks-app-features.md
+    - CRM application features: features/crm-app-features.md
+    - CRM analytics software: features/analytics-app-features.md
+    - CRM email marketing: features/massmail-app-features.md
+    - CRM and Project management: features/crm-and-project-management.md
+  - Documentation: documentation.md
+  - Download: download.md
+  - Support: support.md
+  - Help:
+    - help/index.md
+    - Tasks Module:
+      - Tasks:
+        - Task manager: help/task-management.md
+        - Creating and assigning tasks: help/creating-assigning-tasks.md
+        - Editing and updating tasks: help/editing-updating-tasks.md
+        - Deleting tasks: help/deleting-tasks.md
+      - Memos:
+        - Working with CRM notes: help/notes-crm.md
+        - Memo creation: help/creating-crm-note.md
+        - Editing and updating memos:  help/editing-updating-crm-note.md
+        - Deleting memos: help/deleting-crm-note.md
+      - Projects:
+        - Project management: help/project-management.md
+        - Creating and assigning projects: help/creating-assigning-projects.md
+    - CRM Module:
+        - Commercial requests management: help/commercial-requests-management.md
+        - Deals management: help/deals-management.md
 
 extra:
   analytics:

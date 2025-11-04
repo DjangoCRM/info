@@ -39,6 +39,8 @@ Data from the CRM app flows into the Analytics module for in-depth reporting on 
 * **Spam Protection**  
   Administrators can add banned company names and stop phrases to filter out repetitive or unsolicited submissions.
 
+> **Note:** For a detailed overview of Commercial Requests management, please refer to the [Commercial Requests Management documentation](../help/commercial-requests-management.md).
+
 ---
 
 ## Company, Contact & Lead Management
@@ -96,7 +98,7 @@ Data from the CRM app flows into the Analytics module for in-depth reporting on 
 
 * **Email Integration**
 
-    * Send and receive messages within the CRM using SMTP/IMAP.
+    * Send and receive messages within the CRM using **SMTP/IMAP**.
     * Automatic **ticket** numbering keeps correspondence organized.
     * Possibility of manual import of historical letters and linking them to Deals.
 
@@ -114,5 +116,7 @@ Data from the CRM app flows into the Analytics module for in-depth reporting on 
   Shipment progress is displayed within the Deal record, ensuring sales teams and operations stay aligned on delivery timelines.
 
 ---
+
+> [CRM installation](https://django-crm-admin.readthedocs.io/en/latest/installation/)
 
 By consolidating inquiries, customer data, and deal pipelines in one application, the CRM app software empowers teams to manage their sales lifecycle with greater visibility and control—backed by in-depth analytics and customizable workflows.
