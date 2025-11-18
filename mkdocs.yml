@@ -97,8 +97,9 @@ nav:
         - Project management: help/project-management.md
         - Creating and assigning projects: help/creating-assigning-projects.md
     - CRM Module:
-        - Commercial requests management: help/commercial-requests-management.md
-        - Deals management: help/deals-management.md
+        - Commercial request management: help/commercial-requests-management.md
+        - Deal management: help/deals-management.md
+        - Lead management: help/lead-management.md
 
 extra:
   analytics:

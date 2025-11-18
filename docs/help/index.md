@@ -33,7 +33,7 @@ available features, and step-by-step instructions *(content is being supplemente
     
           * [Requests](commercial-requests-management.md)
           * [Deals](deals-management.md)
-          * Leads
+          * [Leads](lead-management.md)
           * Companies
           * Emails in CRM
           * Payments
@@ -77,7 +77,7 @@ available features, and step-by-step instructions *(content is being supplemente
           * Currencies
           * [Deals](deals-management.md)
           * Emails in CRM
-          * Leads
+          * [Leads](lead-management.md)
           * Payments
           * Products
           * [Requests](commercial-requests-management.md)
