@@ -100,6 +100,8 @@ nav:
         - Commercial request management: help/commercial-requests-management.md
         - Deal management: help/deals-management.md
         - Lead management: help/lead-management.md
+        - Company management: help/company-management.md
+        - Contact management: help/contact-management.md
 
 extra:
   analytics:

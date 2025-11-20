@@ -34,7 +34,7 @@ available features, and step-by-step instructions *(content is being supplemente
           * [Requests](commercial-requests-management.md)
           * [Deals](deals-management.md)
           * [Leads](lead-management.md)
-          * Companies
+          * [Companies](company-management.md)
           * Emails in CRM
           * Payments
           * Shipments
@@ -72,8 +72,8 @@ available features, and step-by-step instructions *(content is being supplemente
     ??? success "CRM"
 
           * Cities
-          * Companies
-          * Contact persons
+          * [Companies](company-management.md)
+          * [Contact persons](contact-management.md)
           * Currencies
           * [Deals](deals-management.md)
           * Emails in CRM
