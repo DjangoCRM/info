@@ -102,6 +102,10 @@ nav:
         - Lead management: help/lead-management.md
         - Company management: help/company-management.md
         - Contact management: help/contact-management.md
+    - Mass mailing Module:
+        - Managing mass mailings: help/managing-mass-mailings.md
+#        - Email marketing overview: help/email-marketing-overview.md
+#        - Creating and sending mass emails: help/creating-sending-mass-emails.md
 
 extra:
   analytics:
