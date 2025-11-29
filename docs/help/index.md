@@ -48,7 +48,7 @@ available features, and step-by-step instructions *(content is being supplemente
     ??? info "Mass mail"
     
           * [Mailing Outs](managing-mass-mailings.md)
-          * Email Messages
+          * [Email Messages](managing-newsletters.md)
     
     ??? info "Common"
     
@@ -99,7 +99,7 @@ available features, and step-by-step instructions *(content is being supplemente
 
           * Email Accounts
           * [Mailing Outs](managing-mass-mailings.md)
-          * Email Messages
+          * [Email Messages](managing-newsletters.md)
           * Signatures
 
     ??? success "Common"
