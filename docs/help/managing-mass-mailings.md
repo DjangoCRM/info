@@ -6,7 +6,7 @@ description: Learn how to manage mass mailings in mailing CRM, including creatin
 
 # **Managing Mass Mailings in Django CRM**
 
-The **Mass Mailing software** module in Django CRM helps sales and marketing teams manage company newsletters,
+The **Mass Mailing software** module in Django CRM helps sales and marketing teams manage company [newsletters](managing-newsletters.md),
 product updates and promotional messages using the built-in [**mailing CRM**](../index.md) tools.
 This section describes how to create, monitor their progress, and optimize **mass mailing** campaigns,
 ensuring efficient and compliant [**email marketing**](../features/massmail-app-features.md) workflows.
