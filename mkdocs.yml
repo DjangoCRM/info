@@ -88,7 +88,7 @@ nav:
         - Creating and assigning tasks: help/creating-assigning-tasks.md
         - Editing and updating tasks: help/editing-updating-tasks.md
         - Deleting tasks: help/deleting-tasks.md
-      - Memos:
+      - Memos (CRM notes):
         - Working with CRM notes: help/notes-crm.md
         - Memo creation: help/creating-crm-note.md
         - Editing and updating memos:  help/editing-updating-crm-note.md
@@ -98,7 +98,9 @@ nav:
         - Creating and assigning projects: help/creating-assigning-projects.md
     - CRM Module:
         - Commercial request management: help/commercial-requests-management.md
+        - Request processing: help/request-processing.md
         - Deal management: help/deals-management.md
+        - Working with deals: help/working-with-deals.md
         - Lead management: help/lead-management.md
         - Company management: help/company-management.md
         - Contact management: help/contact-management.md

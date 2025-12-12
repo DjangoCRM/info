@@ -8,7 +8,7 @@ description: Learn how to manage deals in Django CRM, including deal creation, a
 The **deal** is the main [CRM](../index.md) object used by sales managers to
 track commercial work with potential and current customers.
 It stores the full history of communication, negotiation, and decision-making —
-from the initial request to the successful closing (or rejection) of the deal.
+from the initial [request](request-processing.md) to the successful closing (or rejection) of the deal.
 
 This page explains how to work with the deal list and use available tools for
 organizing and analyzing sales activities.
@@ -110,5 +110,6 @@ This is especially useful for data sharing or reconciliation with trading partne
 
 ## Related Topics
 
-- [Managing Commercial Requests in Django CRM](commercial-requests-management.md)  
+- [Working with Deals](working-with-deals.md)
+- [Managing Commercial Requests](commercial-requests-management.md)  
 - [CRM Software Overview](../features/overview.md)

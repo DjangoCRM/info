@@ -20,7 +20,7 @@ and how to work effectively with the request list.
 
 ## **What are Commercial Requests?**
 
-A request includes essential details about a customer’s inquiry — what they want to purchase,
+A request includes [essential details](request-processing.md) about a customer’s inquiry — what they want to purchase,
 who they represent, and their contact information. These records can appear in the CRM in
 several ways:
 
