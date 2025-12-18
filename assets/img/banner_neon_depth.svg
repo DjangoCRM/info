@@ -1,0 +1,45 @@
+<svg width="2048" height="135" viewBox="0 0 2048 135" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#233d4d" />
+      <stop offset="100%" stop-color="#23949f" />
+    </linearGradient>
+
+    <!-- Light strip -->
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5dd5d" stop-opacity="0" />
+      <stop offset="50%" stop-color="#f5dd5d" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#f5dd5d" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Second strip with a different angle -->
+    <linearGradient id="glow2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5dd5d" stop-opacity="0" />
+      <stop offset="40%" stop-color="#f5dd5d" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#f5dd5d" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Blur for highlights -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="2048" height="135" fill="url(#bg)" />
+
+  <!-- Light strip 1 -->
+  <polygon points="300,0 700,0 1400,135 1000,135" fill="url(#glow1)" />
+
+  <!-- Light strip 2 -->
+  <polygon points="1500,0 1700,0 2200,135 1900,135" fill="url(#glow2)" />
+
+  <!-- Glare (blurred circles) -->
+  <circle cx="400" cy="40" r="100" fill="#f5dd5d" opacity="0.2" filter="url(#blur)" />
+  <circle cx="1600" cy="100" r="80" fill="#f5dd5d" opacity="0.15" filter="url(#blur)" />
+
+  <!-- Abstract translucent shapes -->
+  <path d="M1200 0 L1300 0 Q1400 65 1300 135 L1200 135 Z" fill="#7AFDD6" opacity="0.07"/>
+  <path d="M200 0 L300 0 Q400 65 300 135 L200 135 Z" fill="#7AFDD6" opacity="0.05"/>
+</svg>
