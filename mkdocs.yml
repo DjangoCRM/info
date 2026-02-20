@@ -10,7 +10,7 @@ site_description: >-
 repo_url: https://github.com/DjangoCRM/django-crm
 repo_name: Django CRM GitHub
 site_author: Vadym Kharchenko
-copyright: Copyright &copy; 2024 - 2025 Vadym Kharchenko
+copyright: Copyright &copy; 2024 - 2026 Vadym Kharchenko
 
 theme:
   name: material
