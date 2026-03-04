@@ -97,7 +97,7 @@ available features, and step-by-step instructions *(content is being supplemente
 
     ??? success "Mass mail "
 
-          * Email Accounts
+          * [Email Accounts](email-accounts-management.md)
           * [Mailing Outs](managing-mass-mailings.md)
           * [Email Messages](managing-newsletters.md)
           * Signatures
