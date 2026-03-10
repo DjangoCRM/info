@@ -35,7 +35,7 @@ available features, and step-by-step instructions *(content is being supplemente
           * [Deals](deals-management.md)
           * [Leads](lead-management.md)
           * [Companies](company-management.md)
-          * Emails in CRM
+          * [Email in CRM](email-in-crm.md)
           * Payments
           * Shipments
 
@@ -76,7 +76,7 @@ available features, and step-by-step instructions *(content is being supplemente
           * [Contact persons](contact-management.md)
           * Currencies
           * [Deals](deals-management.md)
-          * Emails in CRM
+          * [Email in CRM](email-in-crm.md)
           * [Leads](lead-management.md)
           * Payments
           * Products
