@@ -35,7 +35,9 @@ then when creating a [deal](deals-management.md), the Company record will also b
 You can add a company manually by clicking **Add Company** and completing the form.
 Before creating a new company, check whether a **Lead** with the same company name already exists.
 
-> See also: [Managing Leads in CRM](lead-management.md).
+> See also:  
+> [Managing company contacts](contact-management.md)  
+> [Managing Leads in CRM](lead-management.md).
 
 ### 3. Import from Excel
 
