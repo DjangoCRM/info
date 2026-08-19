@@ -52,8 +52,8 @@ plugins:
           link: /
           build: true
         - locale: es
-          name: Spanish
-          build: false
+          name: Española
+          build: false       # false
           link: /es/
 
 markdown_extensions:
