@@ -19,7 +19,7 @@ puedes añadirle tareas, realizar un seguimiento de su finalización y supervisa
 Hay varias formas de crear un proyecto en Django CRM:
 
 - **Creación directa**: haz clic en **Añadir proyecto** y completa el [formulario del proyecto](creating-assigning-projects.md).
-- **Desde un memo**: crea un proyecto directamente a partir de una [nota de CRM](../features/tasks-app-features.md#enhance-your-workflow-with-memos-crm-notes) existente; el formulario se completará automáticamente con los datos del memo.
+- **Desde un memo**: crea un proyecto directamente a partir de una [nota de CRM](../features/tasks-app-features.md#mejore-su-flujo-de-trabajo-con-los-memorandos-notas-del-crm) existente; el formulario se completará automáticamente con los datos del memo.
 - **Desde una tarea**: convierte una tarea en un proyecto; el formulario del proyecto heredará los detalles de la tarea.
 
 Estas opciones facilitan iniciar un proyecto a partir de registros de CRM existentes.

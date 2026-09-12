@@ -28,6 +28,6 @@ y garantiza que toda la información — desde datos de clientes hasta progreso 
 * [CRM y Gestión de Tareas](tasks-app-features.md)
 * [Gestión de Proyectos](../help/project-management.md)
 * [Página de Lista de Tareas](../help/task-management.md)
-* [Gestión de Notas en CRM](../features/tasks-app-features.md#enhance-your-workflow-with-memos-crm-notes)
+* [Gestión de Notas en CRM](../features/tasks-app-features.md#mejore-su-flujo-de-trabajo-con-los-memorandos-notas-del-crm)
 
 ---

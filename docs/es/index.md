@@ -51,7 +51,7 @@ Con el tiempo, los sistemas CRM inevitablemente **acumulan grandes volumenes de 
 
 </div>
 
-  [Gestion de contactos]: features/crm-app-features.md#company-contact-lead-management
+	[Gestion de contactos]: features/crm-app-features.md#gestión-de-empresas-contactos-y-prospectos
   [Seguimiento de ventas]: features/crm-app-features.md
   [Gestion de tareas CRM]: features/tasks-app-features.md
   [Software de analitica CRM]: features/analytics-app-features.md

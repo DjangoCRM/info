@@ -28,7 +28,7 @@ Si se recibe información faltante sobre una empresa y persona de contacto duran
 el Lead puede ser convertido en objetos de Empresa y Persona de Contacto.
 
 > Para obtener detalles sobre cómo trabajar con solicitudes, consulte
-**[Gestión de Solicitudes Comerciales](../features/crm-app-features.md#commercial-requests-management)**.
+**[Gestión de Solicitudes Comerciales](../features/crm-app-features.md#gestion-de-solicitudes-comerciales)**.
 
 ---
 
@@ -56,7 +56,7 @@ Puede cargar múltiples leads a la vez:
 2. Seleccione un archivo Excel preparado según el formato de importación del CRM.
 3. Confirme la carga.
 
-Para obtener opciones de exportación, consulte la sección **Exportando Leads** [abajo](#exporting-leads).
+Para obtener opciones de exportación, consulte la sección **Exportando Leads** [abajo](#exportando-leads).
 
 ---
 

@@ -7,7 +7,7 @@ description: Aprenda cómo usar la lista de tareas de CRM, crear tareas personal
 # **Gestión de Tareas en Django CRM**
 
 La lista de tareas en Django CRM ayuda a los usuarios y equipos a organizar el trabajo diario,
-gestionar tareas personales y [de equipo](#working-with-team-task), hacer seguimiento del progreso con subtareas,
+gestionar tareas personales y [de equipo](#trabajar-con-tarea-de-equipo), hacer seguimiento del progreso con subtareas,
 y comunicarse directamente en chats de tareas. Aquí aprenderá cómo crear tareas,
 asignar roles, actualizar estados, usar filtros y etiquetas, y hacer que el trabajo en equipo sea más eficiente con
 notificaciones automatizadas y herramientas de colaboración.  
@@ -56,7 +56,7 @@ La mayoría de los títulos de la tabla de tareas están activos. Al hacer clic 
 ## **Tipos de Tareas**
 
 - **Tarea personal** – asignada a un único usuario.
-- [**Tarea de equipo**](#working-with-team-task) – involucra a múltiples usuarios.
+- [**Tarea de equipo**](#trabajar-con-tarea-de-equipo) – involucra a múltiples usuarios.
 - **Subtarea** – puede crearse para cualquier tarea. Una tarea se convierte en una **tarea principal** si tiene al menos una subtarea.
 - Las tareas también pueden pertenecer a un **proyecto** para una mejor organización.
 

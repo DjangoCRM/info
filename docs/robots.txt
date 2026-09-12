@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /info/assets/
+Disallow: /info/*/assets/
+Disallow: /info/search/
+Disallow: /info/*/search/
+Allow: /info/
+
+Sitemap: https://djangocrm.github.io/info/sitemap.xml

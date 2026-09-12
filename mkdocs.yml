@@ -46,15 +46,58 @@ plugins:
   - i18n:   # plugin `mkdocs-static-i18n` 
       docs_structure: folder
       languages:
+      # English
         - locale: en
           default: true
           name: English
           link: /
           build: true
+      # Española
         - locale: es
           name: Española
-          build: false       # false
+          build: true       # false
           link: /es/
+          nav:
+            - Página principal: index.md
+            - Características:
+              - Descripción general del software CRM: features/overview.md
+              - CRM y gestión de tareas: features/tasks-app-features.md
+              - Características de la aplicación CRM: features/crm-app-features.md
+              - Software de análisis de CRM: features/analytics-app-features.md
+              - Email marketing integrado en el CRM: features/massmail-app-features.md
+              - CRM y gestión de proyectos: features/crm-and-project-management.md
+            - Documentación: documentation.md
+            - Descargar: download.md
+            - Soporte: support.md
+            - Ayuda:
+              - help/index.md
+              - Módulo de tareas:
+                - Tareas:
+                  - Administrador de tareas: help/task-management.md
+                  - Crear y asignar tareas: help/creating-assigning-tasks.md
+                  - Tareas de edición y actualización: help/editing-updating-tasks.md
+                  - Eliminar tareas: help/deleting-tasks.md
+                - Memos (notas de CRM):
+                  - Cómo trabajar con las notas del CRM: help/notes-crm.md
+                  - Creación de notas: help/creating-crm-note.md
+                  - Edición y actualización de notas:  help/editing-updating-crm-note.md
+                  - Eliminar memos: help/deleting-crm-note.md
+                - Proyectos:
+                  - Gestión de proyectos: help/project-management.md
+                  - Creación y asignación de proyectos: help/creating-assigning-projects.md
+              - Módulo de CRM`:
+                  - Gestión de solicitudes comerciales: help/commercial-requests-management.md
+                  - Procesamiento de solicitudes: help/request-processing.md
+                  - Gestión de acuerdos: help/deals-management.md
+                  - Correo electrónico en el CRM: help/email-in-crm.md
+                  - Trabajar con acuerdos: help/working-with-deals.md
+                  - Gestión de clientes potenciales: help/lead-management.md
+                  - Dirección de la empresa: help/company-management.md
+                  - Gestión de contactos: help/contact-management.md
+              - Módulo de envío masivo de correos electrónicos:
+                  - Gestión de envíos masivos: help/managing-mass-mailings.md
+                  - Gestión de boletines: help/managing-newsletters.md
+                  - Gestión de cuentas de correo electrónico: help/email-accounts-management.md
 
 markdown_extensions:
   - admonition

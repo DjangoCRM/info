@@ -5,7 +5,7 @@ description: Aprende a eliminar memos del CRM en Django CRM, incluidos los permi
 
 # Eliminar un memo del CRM
 
-Si un [**memo del CRM**](../features/tasks-app-features.md#enhance-your-workflow-with-memos-crm-notes) ya no es relevante, puede eliminarlo del sistema.
+Si un [**memo del CRM**](../features/tasks-app-features.md#mejore-su-flujo-de-trabajo-con-los-memorandos-notas-del-crm) ya no es relevante, puede eliminarlo del sistema.
 Eliminar el memo ayuda a mantener organizado el espacio de trabajo y garantiza que solo permanezcan
 las comunicaciones actuales y activas en el CRM.
 
