@@ -98,6 +98,52 @@ plugins:
                   - Gestión de envíos masivos: help/managing-mass-mailings.md
                   - Gestión de boletines: help/managing-newsletters.md
                   - Gestión de cuentas de correo electrónico: help/email-accounts-management.md
+     # Українська
+        - locale: uk
+          name: Українська
+          build: true
+          link: /uk/
+          nav:
+            - Головна: index.md
+            - Особливості:
+              - Огляд програмного забезпечення CRM: features/overview.md
+              - CRM та управління завданнями: features/tasks-app-features.md
+              - Функції CRM-додатку: features/crm-app-features.md
+              - Програмне забезпечення CRM-аналітики: features/analytics-app-features.md
+              - CRM email-маркетинг: features/massmail-app-features.md
+              - CRM та управління проектами: features/crm-and-project-management.md
+            - Документація: documentation.md
+            - Завантажити: download.md
+            - Підтримка: support.md
+            - Допомога:
+              - help/index.md
+              - Модуль завдань:
+                - Завдання:
+                  - Управління завданнями: help/task-management.md
+                  - Створення та призначення завдань: help/creating-assigning-tasks.md
+                  - Редагування та оновлення завдань: help/editing-updating-tasks.md
+                  - Видалення завдань: help/deleting-tasks.md
+                - Службові записки (нотатки):
+                  - Робота з нотатками в CRM: help/notes-crm.md
+                  - Створення службової записки: help/creating-crm-note.md
+                  - Редагування та оновлення службових записок:  help/editing-updating-crm-note.md
+                  - Видалення службових записок: help/deleting-crm-note.md
+                - Проєкти:
+                  - Управління проєктами: help/project-management.md
+                  - Створення та призначення проєктів: help/creating-assigning-projects.md
+              - Модуль CRM:
+                  - Управління комерційними запитами: help/commercial-requests-management.md
+                  - Обробка запиту: help/request-processing.md
+                  - Управління угодами: help/deals-management.md
+                  - Електронна пошта в CRM: help/email-in-crm.md
+                  - Робота з угодами: help/working-with-deals.md
+                  - Управління потенційними клієнтами (Лідами): help/lead-management.md
+                  - Управління компаніями: help/company-management.md
+                  - Управління контактними особами: help/contact-management.md
+              - Модуль масової розсилки:
+                  - Управління масовими розсилками: help/managing-mass-mailings.md
+                  - Управління розсилкою новин: help/managing-newsletters.md
+                  - Управління обліковими записами електронної пошти: help/email-accounts-management.md
 
 markdown_extensions:
   - admonition

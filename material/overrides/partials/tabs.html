@@ -30,6 +30,13 @@
         <p>{{ config.site_description }}.</p>
         <a href="{{ 'documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">Get started</a>
         <a href="{{ 'features/overview/' | url }}" title="Django-CRM Overview" class="md-button">Learn more</a>
+        {% elif page.url == "uk/" %}
+        <h2>Безкоштовне програмне забезпечення з відкритим кодом для управління взаємовідносинами з клієнтами.</h2>
+        <p>Аналітична CRM із функціями управління завданнями, email-маркетингу та багатьма іншими можливостями.
+Це програмне забезпечення CRM та управління завданнями підходить для компаній будь-якого масштабу, але є особливо корисним для малого бізнесу. Воно розроблене з урахуванням можливості легкого налаштування та швидкого впровадження.
+Розгортайте систему на власному сервері або на хмарній платформі.</p>
+        <a href="{{ 'uk/documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">Get started</a>
+        <a href="{{ 'uk/features/overview/' | url }}" title="Django-CRM Overview" class="md-button">Learn more</a>
         {% elif page.url == "es/" %}
         <h2>Software de gestión de relaciones con el cliente (CRM) gratuito y de código abierto.</h2>
         <p>CRM analítico con gestión de tareas, email marketing y mucho más.
@@ -37,6 +44,7 @@ Este software de CRM y gestión de tareas está diseñado para uso individual en
 Implementación en su servidor o plataforma en la nube.</p>
         <a href="{{ 'es/documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">Get started</a>
         <a href="{{ 'es/features/overview/' | url }}" title="Django-CRM Overview" class="md-button">Learn more</a>
+
         {% endif %}
       </div>
     </div>
