@@ -14,25 +14,30 @@
     </ul>
   </div>
 </nav>
-{% if page.url == "" %}
+{% if page.url in ("", "es/") %}
 <section class="mdx-container">
   <div class="md-grid md-typeset">
     <div class="mdx-hero">
       <div class="mdx-hero__image">
-        <img src="assets/img/illustration.webp" alt="CRM illustration" draggable="false">
+        <img src="{% if page.url == '' %}{% else %}../{% endif %}assets/img/illustration.webp" alt="CRM illustration" draggable="false">        
       </div>
       <div class="mdx-hero__content">
-        <img src="assets/img/django-crm_logo_300.svg" alt="Analytical crm report"  width="90px" style="float: right; margin-right: 25%;"/>
+        <img src="{% if page.url == '' %}{% else %}../{% endif %}assets/img/django-crm_logo_300.svg" alt="Analytical crm report"  width="90px" style="float: right; margin-right: 25%;"/>
         <br>
         <h1>Django-CRM</h1>
+        {% if page.url == "" %}
         <h2>Free and Open Source Customer Relationship Management software</h2>
         <p>{{ config.site_description }}.</p>
-        <a href="{{ 'documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-          Get started
-        </a>
-        <a href="{{ 'features/overview/' | url }}" title="Django-CRM Overview" class="md-button">
-          Learn more
-        </a>
+        <a href="{{ 'documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">Get started</a>
+        <a href="{{ 'features/overview/' | url }}" title="Django-CRM Overview" class="md-button">Learn more</a>
+        {% elif page.url == "es/" %}
+        <h2>Software de gestión de relaciones con el cliente (CRM) gratuito y de código abierto.</h2>
+        <p>CRM analítico con gestión de tareas, email marketing y mucho más.
+Este software de CRM y gestión de tareas está diseñado para uso individual en empresas de cualquier tamaño, pero resulta especialmente útil para pequeñas empresas. Su diseño permite una fácil personalización y un desarrollo rápido.
+Implementación en su servidor o plataforma en la nube.</p>
+        <a href="{{ 'es/documentation/' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">Get started</a>
+        <a href="{{ 'es/features/overview/' | url }}" title="Django-CRM Overview" class="md-button">Learn more</a>
+        {% endif %}
       </div>
     </div>
   </div>
