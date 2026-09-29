@@ -1,0 +1,2127 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="CRM analitico con gestion de contactos, seguimiento de ventas, email marketing y mucho mas. Personaliza tu flujo de trabajo y mantén tus datos seguros, sin dependencia de un proveedor.">
+      
+      
+        <meta name="author" content="Vadym Kharchenko">
+      
+      
+        <link rel="canonical" href="https://DjangoCRM.github.io/info/es/">
+      
+      
+      
+        <link rel="next" href="features/overview/">
+      
+      
+      <link rel="icon" href="../assets/img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Software CRM gratuito y de codigo abierto - Django-CRM</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-NL555B7QKF"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-NL555B7QKF",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-NL555B7QKF",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  
+  <link rel="stylesheet" href="../assets/stylesheets/custom.7c86dd97.min.css">
+
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="django-crm" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#que-diferencia-a-django-crm" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<style>.md-banner {
+  background-image: url(/info/assets/img/banner_neon_depth.svg);
+  background-size: cover;
+  background-position: center;
+}</style>
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+<!-- Determine classes -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+
+    <!-- Link to home -->
+    <a href="./" title="Django-CRM" class="md-header__button md-logo" aria-label="Django-CRM" data-md-component="logo">
+      
+  <img src="../assets/img/django-crm_logo.png" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-site_name">
+            Django-CRM
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Software CRM gratuito y de codigo abierto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette toggle -->
+    
+      
+    
+
+    <!-- User preference: color palette -->
+    
+
+    <!-- Site language selector -->
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/info/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/info/es/" hreflang="es" class="md-select__link">
+              Española
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/info/uk/" hreflang="uk" class="md-select__link">
+              Українська
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/DjangoCRM/django-crm" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    Django CRM GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+
+<!-- Navigation tabs -->
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Página principal
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="features/overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Características
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="documentation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Documentación
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="download/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Descargar
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="support/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Soporte
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="help/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Ayuda
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="../assets/img/illustration.webp" alt="CRM illustration" draggable="false">        
+      </div>
+      <div class="mdx-hero__content">
+        <img src="../assets/img/django-crm_logo_300.svg" alt="Analytical crm report" width="90px" style="float: right; margin-right: 25%;">
+        <br>
+        <h1>Django-CRM</h1>
+        
+        <h2>Software de gestión de relaciones con el cliente (CRM) gratuito y de código abierto.</h2>
+        <p>CRM analítico con gestión de tareas, email marketing y mucho más.
+Este software de CRM y gestión de tareas está diseñado para uso individual en empresas de cualquier tamaño, pero resulta especialmente útil para pequeñas empresas. Su diseño permite una fácil personalización y un desarrollo rápido.
+Implementación en su servidor o plataforma en la nube.</p>
+        <a href="documentation/" title="Descripción general del software CRM" class="md-button md-button--primary">Get started</a>
+        <a href="features/overview/" title="Django-CRM Overview" class="md-button">Learn more</a>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden="">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./" title="Django-CRM" class="md-nav__button md-logo" aria-label="Django-CRM" data-md-component="logo">
+      
+  <img src="../assets/img/django-crm_logo.png" alt="logo">
+
+    </a>
+    Django-CRM
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/DjangoCRM/django-crm" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    Django CRM GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Página principal
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Página principal
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#que-diferencia-a-django-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Que diferencia a Django CRM?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funciones-completas-del-software-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funciones completas del software CRM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-de-aplicacion-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software de aplicacion CRM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facil-personalizacion-y-desarrollo-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facil personalizacion y desarrollo del proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crm-y-email-marketing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRM y email marketing
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Características
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Características
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descripción general del software CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/tasks-app-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRM y gestión de tareas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/crm-app-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Características de la aplicación CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/analytics-app-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software de análisis de CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/massmail-app-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Email marketing integrado en el CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features/crm-and-project-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRM y gestión de proyectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descargar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Soporte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="help/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ayuda
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Ayuda
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Módulo de tareas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Módulo de tareas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2_1">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_1" id="__nav_6_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tareas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Tareas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/task-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrador de tareas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/creating-assigning-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crear y asignar tareas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/editing-updating-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tareas de edición y actualización
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/deleting-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eliminar tareas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_2" id="__nav_6_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Memos (notas de CRM)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Memos (notas de CRM)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/notes-crm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cómo trabajar con las notas del CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/creating-crm-note/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creación de notas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/editing-updating-crm-note/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Edición y actualización de notas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/deleting-crm-note/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eliminar memos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_3" id="__nav_6_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Proyectos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Proyectos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/project-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de proyectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/creating-assigning-projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creación y asignación de proyectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3">
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Módulo de CRM`
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Módulo de CRM`
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/commercial-requests-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de solicitudes comerciales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/request-processing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Procesamiento de solicitudes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/deals-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de acuerdos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/email-in-crm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Correo electrónico en el CRM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/working-with-deals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trabajar con acuerdos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/lead-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de clientes potenciales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/company-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dirección de la empresa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/contact-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de contactos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4">
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Módulo de envío masivo de correos electrónicos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Módulo de envío masivo de correos electrónicos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/managing-mass-mailings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de envíos masivos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/managing-newsletters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de boletines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help/email-accounts-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de cuentas de correo electrónico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#que-diferencia-a-django-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Que diferencia a Django CRM?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funciones-completas-del-software-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funciones completas del software CRM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-de-aplicacion-crm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software de aplicacion CRM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facil-personalizacion-y-desarrollo-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facil personalizacion y desarrollo del proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crm-y-email-marketing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRM y email marketing
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  <!--
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Tags -->
+
+  
+
+
+
+<!-- Actions -->
+
+  
+  
+
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+
+
+  <h1>Página principal</h1>
+
+
+
+<!-- Page content -->
+<h2 id="que-diferencia-a-django-crm"><strong>Que diferencia a Django CRM?</strong></h2>
+<p><strong>Django-CRM</strong> es una solucion de gestion de relaciones con clientes diseñada con <strong>dos objetivos principales</strong>:</p>
+<ul>
+<li><strong>Para usuarios empresariales</strong>: ofrecer un software CRM profesional de codigo abierto con todas las herramientas necesarias para gestionar clientes, ventas y flujos de trabajo, completamente gratuito y bajo una licencia de codigo abierto.</li>
+<li>
+<p><strong>Para mantenedores y desarrolladores</strong>: facilitar significativamente:</p>
+<ul>
+<li>la personalizacion del software</li>
+<li>el despliegue y soporte de un servidor de produccion</li>
+<li>el desarrollo y la ampliacion de funcionalidades</li>
+</ul>
+</li>
+</ul>
+<p>El acceso a los datos empresariales de la compañia permanece exclusivamente bajo su control.
+<strong>Este CRM es perfecto para empresas que desean tener el control total de su solucion CRM sin depender de un proveedor.</strong></p>
+<p>Django CRM esta construido completamente sobre el ampliamente utilizado framework <a href="https://docs.djangoproject.com/en/dev/ref/contrib/admin/" target="_blank">Django Admin</a>. Esto significa que la mayoria de los desarrolladores e integradores de <a href="https://www.python.org/" target="_blank">Python</a>/Django pueden comprender, personalizar y ampliar facilmente el sistema, reduciendo el tiempo de implementacion y los gastos de mantenimiento a largo plazo en comparacion con productos similares.</p>
+<hr>
+<figure>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/screenshots/deals_screenshot.png" data-desc-position="bottom"><img alt="Captura de pantalla de negocios" loading="lazy" src="../assets/img/screenshots/deals_screenshot.png" width="680"></a>
+<br>
+<figcaption>Captura de pantalla de la pagina de negocios del CRM</figcaption>
+</figure>
+<p>Con el tiempo, los sistemas CRM inevitablemente <strong>acumulan grandes volumenes de datos</strong> sobre clientes potenciales, contactos, tareas e interacciones. Una <strong>presentacion tabular</strong> con opciones flexibles de filtrado y ordenacion ayuda a los usuarios a <strong>localizar rapidamente los registros relevantes</strong>, analizar los detalles importantes y gestionar las operaciones diarias de forma eficiente, incluso cuando el conjunto de datos crece. Este formato permite tomar decisiones mas rapidamente y reduce el tiempo dedicado a navegar por informacion compleja.</p>
+<figure>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/screenshots/deals_pagination.png" data-desc-position="bottom"><img alt="Captura de pantalla de paginacion de tareas" loading="lazy" src="../assets/img/screenshots/deals_pagination.png"></a>
+<br>
+<figcaption>Paginacion de negocios</figcaption>
+</figure>
+<hr>
+<h2 id="funciones-completas-del-software-crm"><strong>Funciones completas del software CRM</strong></h2>
+<div class="grid cards">
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 14H4V6h16zM4 0h16v2H4m0 20h16v2H4m8-12a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 0 0 5m0-3.5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1m5 7.5c0-2.1-3.31-3-5-3s-5 .9-5 3v1h10zm-8.19-.5c.61-.5 2.03-1 3.19-1 1.17 0 2.59.5 3.2 1z"></path></svg></span> <strong>[Gestion de contactos]</strong> - Almacena y gestiona la informacion, las interacciones y las actividades de los clientes</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 11.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1-5 0M13 3v17h11V3zm9 13c-1.1 0-2 .9-2 2h-3a2 2 0 0 0-2-2V7c1.11 0 2-.89 2-2h3a2 2 0 0 0 2 2zM7 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0-2C4.79 4 3 5.79 3 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m0 10c-3.87 0-7 1.79-7 4v2h11v-2H2c0-.58 1.75-2 5-2 1.83 0 3.17.45 4 .95v-2.23C9.87 14.27 8.5 14 7 14"></path></svg></span> <strong><a href="features/crm-app-features/">Seguimiento de ventas</a></strong> - Haz seguimiento de clientes potenciales, oportunidades y negocios para mejorar el rendimiento de ventas</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7v14h14v2H4c-1.1 0-2-.9-2-2V7zm8.8 8.35-3.3-3.3 1.4-1.4 1.9 1.9 4.3-4.3 1.4 1.4zM20 3c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h3.18C11.6 1.84 12.7 1 14 1s2.4.84 2.82 2zm-6 0c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1m-4 4V5H8v12h12V5h-2v2z"></path></svg></span> <strong><a href="features/tasks-app-features/">Gestion de tareas CRM</a></strong> - Crea y asigna tareas a los miembros del equipo para mejorar la colaboracion y la productividad</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6 16.5-3 2.94V11h3m5 3.66-1.57-1.34L8 14.64V7h3m5 6-3 3V3h3m2.81 9.81L17 11h5v5l-1.79-1.79L13 21.36l-3.47-3.02L5.75 22H3l6.47-6.34L13 18.64"></path></svg></span> <strong><a href="features/analytics-app-features/">Software de analitica CRM</a></strong> - Genera informes y analiza datos para tomar decisiones empresariales fundamentadas</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 5.5H9c-1.1 0-2 .9-2 2v9a2 2 0 0 0 2 2h13c1.11 0 2-.89 2-2v-9a2 2 0 0 0-2-2m0 11H9V9.17l6.5 3.33L22 9.17zm-6.5-5.69L9 7.5h13zM5 16.5c0 .17.03.33.05.5H1c-.552 0-1-.45-1-1s.448-1 1-1h4zM3 7h2.05c-.02.17-.05.33-.05.5V9H3c-.55 0-1-.45-1-1s.45-1 1-1m-2 5c0-.55.45-1 1-1h3v2H2c-.55 0-1-.45-1-1"></path></svg></span> <strong><a href="features/massmail-app-features/">Email marketing CRM</a></strong> - Envia campañas de email personalizadas directamente desde el CRM</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg></span> <strong><a href="./">Localizacion del proyecto</a></strong> - El software de atencion al cliente esta ahora <strong>disponible en mas de 20 idiomas</strong></li>
+</ul>
+</div>
+<pre><code>[Gestion de contactos]: features/crm-app-features.md#gestión-de-empresas-contactos-y-prospectos
+</code></pre>
+<hr>
+<div class="grid">
+<div class="admonition note">
+<p class="admonition-title"><strong>Problemas habituales de los clientes de CRM SaaS</strong></p>
+<details class="info">
+<summary>1. Altos costes de suscripcion con un bajo uso de las funciones</summary>
+<ul>
+<li>Las empresas pagan grandes cuotas anuales por las licencias de CRM SaaS.</li>
+<li>Normalmente, solo se utiliza entre el 20 y el 30 % de las funciones.</li>
+<li>Las funciones utiles suelen estar bloqueadas tras costosos niveles premium.</li>
+</ul>
+</details>
+<details class="info">
+<summary>2. Flujos de trabajo rigidos que no se adaptan a las necesidades empresariales</summary>
+<ul>
+<li>Las plataformas SaaS obligan a las empresas a adaptar sus flujos de trabajo a estructuras CRM predefinidas.</li>
+<li>Personalizar la logica empresarial, como los algoritmos de puntuacion de clientes potenciales, requiere plugins costosos, consultores o soluciones provisionales.</li>
+<li>Las herramientas integradas son genericas y a menudo no cubren las necesidades especificas de cada sector.</li>
+</ul>
+</details>
+<details class="info">
+<summary>3. Las personalizaciones se rompen durante las actualizaciones de la plataforma y existe dependencia del proveedor</summary>
+<ul>
+<li>Las funciones personalizadas o integraciones suelen romperse con cada actualizacion de la plataforma.</li>
+<li>La migracion a otra plataforma se hace intencionadamente dificil y costosa.</li>
+<li>Las empresas quedan atrapadas pagando cuotas de suscripcion cada vez mayores debido a la complejidad del cambio.</li>
+</ul>
+</details>
+<details class="info">
+<summary>4. Costes ocultos: integracion, consultoria y trabajo manual</summary>
+<ul>
+<li>Integrar herramientas de terceros o sistemas internos implica elevados costes de consultoria.</li>
+<li>Los equipos pierden tiempo en procesos manuales, como exportaciones de datos e informes personalizados, porque la automatizacion es limitada o falla.</li>
+<li>Las perdidas de productividad no se tienen en cuenta en los calculos del ROI, pero tienen un impacto empresarial real.</li>
+</ul>
+</details>
+<details class="info">
+<summary>5. Respuesta lenta a requisitos unicos</summary>
+<ul>
+<li>Las solicitudes de funciones o los cambios necesarios dependen de los plazos de desarrollo del proveedor.</li>
+<li>Los requisitos empresariales criticos suelen tener baja prioridad para los grandes proveedores de CRM.</li>
+<li>Las empresas quedan esperando o se ven obligadas a realizar desarrollos personalizados costosos sobre plataformas ya caras.</li>
+</ul>
+</details>
+</div>
+<div class="admonition question">
+<p class="admonition-title"><strong>Como resuelve Django CRM estos problemas</strong></p>
+<details class="success">
+<summary>1. Software gratuito y de codigo abierto sin costes por usuario</summary>
+<ul>
+<li>Django CRM es un <strong>software gratuito y de codigo abierto</strong>, sin cuotas de licencia ni costes por usuario.</li>
+<li>Eres propietario del codigo y los datos, sin dependencia de un proveedor.</li>
+<li>Los costes iniciales de desarrollo pueden recuperarse con el tiempo gracias a unos gastos operativos menores.</li>
+</ul>
+</details>
+<details class="success">
+<summary>2. Modelos de datos y logica totalmente personalizables</summary>
+<ul>
+<li>Django CRM permite <strong>modificar directamente la logica y los modelos de datos del CRM</strong>.</li>
+<li>Puedes implementar puntuacion personalizada de clientes potenciales, procesos de ventas unicos o flujos de trabajo especializados adaptados a tu sector.</li>
+<li>No es necesario combinar herramientas externas ni forzar tu proceso para adaptarlo a plantillas CRM genericas.</li>
+</ul>
+</details>
+<details class="success">
+<summary>3. Personalizaciones estables bajo tu control en tu propio CRM</summary>
+<ul>
+<li>Tu decides cuando y como actualizar tu CRM.</li>
+<li>Las funciones personalizadas forman parte de tu codigo, no son plugins externos fragiles que se rompen durante las actualizaciones del proveedor.</li>
+<li>La migracion siempre es posible, ya que toda la aplicacion esta bajo tu control.</li>
+</ul>
+</details>
+<details class="success">
+<summary>4. Integraciones eficientes mediante el ecosistema Django/Python</summary>
+<ul>
+<li>La arquitectura modular de Django facilita las integraciones mediante API y la automatizacion.</li>
+<li>Evitas los mercados de integraciones propietarios con costes ocultos.</li>
+<li>Los sistemas internos, paneles personalizados y scripts de automatizacion pueden ejecutarse sin problemas dentro de la misma pila tecnologica.</li>
+</ul>
+</details>
+<details class="success">
+<summary>5. Respuesta agil a las necesidades empresariales</summary>
+<ul>
+<li>Los ciclos de desarrollo los determina tu equipo, no la hoja de ruta de un proveedor.</li>
+<li>Las nuevas funciones pueden añadirse gradualmente, exactamente cuando se necesitan.</li>
+<li>Django CRM esta diseñado para <strong>ampliarse</strong>, por lo que es ideal para requisitos empresariales en evolucion.</li>
+</ul>
+</details>
+</div>
+</div>
+<hr>
+<h2 id="software-de-aplicacion-crm"><strong>Software de aplicacion CRM</strong></h2>
+<div class="grid">
+<p class="card"><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/screenshots/crm_deal_screenshot_500x500.webp" data-desc-position="bottom"><img alt="Software de aplicacion CRM" loading="lazy" src="../assets/img/screenshots/crm_deal_screenshot_500x500.webp"></a></p>
+<p class="card"><br>El CRM es una aplicacion gratuita y de codigo abierto para la gestion de relaciones con clientes, construida sobre el framework Django y diseñada para ayudar a las pequeñas empresas a gestionar su canal de ventas y los datos de sus clientes de forma mas eficiente.
+Esta aplicacion de software CRM centraliza procesos clave, como el seguimiento de clientes potenciales, la gestion de negocios y la comunicacion interna, en un unico sistema agil.
+Con funciones como el control de acceso <strong>basado en roles</strong>, filtros de busqueda avanzados, email integrado y <strong>comunicacion VoIP</strong>, ademas de la gestion automatica de solicitudes, ayuda a los equipos a trabajar de forma colaborativa y mantenerse organizados.
+La aplicacion CRM tambien permite hacer seguimiento de pagos, gestionar tareas y obtener informacion mediante analitica integrada e informes del embudo de ventas.
+Los <strong>roles personalizados</strong> y los permisos hacen que se adapte a cualquier estructura organizativa y garantizan que cada usuario tenga el nivel de acceso adecuado. Tanto si gestionas solicitudes comerciales, contactos o el rendimiento de ventas, el CRM ayuda a <strong>automatizar</strong> y simplificar tu <strong>flujo de trabajo</strong>.
+Como solucion flexible y completamente documentada, es ideal para empresas que buscan desplegar una aplicacion de software CRM escalable y personalizable sin depender de un proveedor.
+<a class="md-button" href="features/crm-app-features/">Software CRM de ventas</a></p>
+</div>
+<hr>
+<h2 id="facil-personalizacion-y-desarrollo-del-proyecto"><strong>Facil personalizacion y desarrollo del proyecto</strong></h2>
+<p>El CRM esta construido pensando en la flexibilidad, por lo que es facil personalizarlo y ampliarlo para cualquier necesidad empresarial. Tanto si añades nuevas funciones, integras servicios de terceros o modificas flujos de trabajo existentes, el codigo base es facil de comprender y ampliar.
+Como CRM desarrollado en Python, aprovecha la potencia de Django para garantizar un desarrollo rapido y una integracion sencilla con herramientas de terceros. Gracias a sus componentes reutilizables y su documentacion clara, adaptar el CRM a tu logica empresarial requiere un esfuerzo minimo.
+Los desarrolladores pueden añadir nuevas funciones, ajustar flujos de trabajo o conectar API externas sin complejidad innecesaria. El proyecto sigue las mejores practicas de Django, lo que facilita su mantenimiento y actualizacion. Con documentacion clara y el apoyo de una comunidad activa, empezar es rapido y eficiente.</p>
+<hr>
+<h2 id="crm-y-email-marketing"><strong>CRM y email marketing</strong></h2>
+<div class="grid">
+<p class="card"><br>El CRM combina potentes herramientas de gestion de clientes con <strong>funciones integradas de email marketing</strong>, lo que lo convierte en una solucion completa de <a href="features/massmail-app-features/"><strong>CRM para mailing</strong></a>.
+Los usuarios pueden ejecutar campañas de email personalizadas, gestionar listas de suscriptores y hacer seguimiento de la interaccion, todo desde la interfaz del CRM.
+Los emails se vinculan directamente con empresas, personas de contacto y clientes potenciales, garantizando un historial de comunicacion unificado.
+Las funciones de mailing masivo permiten enviar <strong>newsletters segmentadas</strong> sin depender de herramientas externas.
+La <strong>segmentacion avanzada de clientes</strong> permite realizar una orientacion precisa basada en filtros definidos por el usuario.
+Con la sincronizacion automatica del correo y el seguimiento basado en tickets, puedes mantener una comunicacion coherente con los clientes a gran escala.
+Como <strong>CRM con email</strong>, CRM simplifica el contacto con clientes y mantiene a tu equipo coordinado en cada interaccion.
+<a class="md-button" href="features/massmail-app-features/">CRM y email marketing</a></p>
+<figure>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/screenshots/crm_email_screenshot.webp" data-desc-position="bottom"><img alt="Software de aplicacion CRM" loading="lazy" src="../assets/img/screenshots/crm_email_screenshot.webp" width="600"></a>
+</figure>
+</div>
+<hr>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie">
+        
+        
+          
+          <a href="features/overview/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Descripción general del software CRM">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Descripción general del software CRM
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2024 - 2026 Vadym Kharchenko
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.tracking", "navigation.tabs", "navigation.expand", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+  
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  <script src="../assets/javascripts/custom.9e5da760.min.js"></script>
+
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html><!-- Source file information --><!-- Was this page helpful? --><!-- Comment system -->
